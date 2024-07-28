@@ -1,4 +1,4 @@
-N1:
+N2:
 
 
 ```cpp
@@ -35,6 +35,66 @@ int main() {
 ```
 
 
-N2:
+N3:
 
 ```cpp
+#include <iostream>
+#include <vector>
+
+
+using namespace std;
+
+
+int main() {
+    vector<int> nums= {1, 2, 3, 4, 5,6,12,14,18};
+    for (int num : nums){
+        if(num%6==0)
+        cout<<num<<endl;
+    }
+    
+    
+    return 0;
+}
+```
+
+N4:
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+struct Point {
+    double x;
+    double y;
+    double z;
+};
+
+struct Sphere {
+    Point center; 
+    double radius;
+};
+bool isinsphere(const Point& p, const Sphere& sphere) {
+    double distance = sqrt(pow(p.x - sphere.center.x, 2) +
+                           pow(p.y - sphere.center.y, 2) +
+                           pow(p.z - sphere.center.z, 2));
+    return distance <= sphere.radius;
+}
+
+int main() {
+    Point point = {2, 3, 4};
+    Sphere sphere = {{1, 2, 3}, 3};
+
+    if (isinsphere(point, sphere)) {
+        cout << "The point is inside the sphere." << endl;
+    } else {
+        cout << "The point is not inside the sphere." << endl;
+    }
+
+    return 0;
+}
+
+
+```
+
