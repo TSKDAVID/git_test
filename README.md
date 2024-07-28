@@ -1,6 +1,5 @@
 N1:
 
-```markdown
 
 ```cpp
 #include <iostream>
