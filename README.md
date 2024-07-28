@@ -186,6 +186,7 @@ for (int num:numbers)
 ```
 
 N8:
+```cpp
 
 #include <iostream>
 #include <fstream>
@@ -219,5 +220,6 @@ int main() {
 
     return 0;
 }
+
 
 ```
