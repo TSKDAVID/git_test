@@ -1,3 +1,4 @@
+
 N1:
 მთავარ ფუნქციაში:
 1.  შემოვიტანოთ ცვლადი მასივის ზომისთვის
@@ -201,6 +202,61 @@ Function 2:
 Also iterates from the start of the string to the midpoint.
 Each iteration swaps characters from the beginning and end of the string moving towards the center.
 The length of the string is accessed only once before the loop starts.
+
+
+
+
+
+
+ლინუქსი:
+
+1. ა
+2. დ
+3. ა
+4. ა
+5. ა
+6. ა
+7. ა
+8. ა
+9. ა
+10. ა
+11. ა
+12. ა
+13. ა
+14. ა
+15. ა
+16. ა
+17. ა
+18. ა
+19. ა
+20. ა
+21. ა
+22. ა
+23. ა
+24. ა
+25. ა
+26. ა
+27. ა
+28. ა
+29. გ
+30. ა
+31. ა
+32. ა
+33. ა
+34. ა
+35. ა
+36. ა
+37. ა
+38. ა
+39. ა
+40. ა
+
+
+
+
+
+
+
 
 
 
