@@ -126,6 +126,18 @@ N7:
    
 
 
+N8:
+Efficiency Comparison
+Function 1:
+
+Iterates from the start of the string to the midpoint.
+Each iteration swaps characters from the beginning and end of the string moving towards the center.
+The length of the string is accessed multiple times in each loop iteration (s.length()).
+Function 2:
+
+Also iterates from the start of the string to the midpoint.
+Each iteration swaps characters from the beginning and end of the string moving towards the center.
+The length of the string is accessed only once before the loop starts.
 
 
 
